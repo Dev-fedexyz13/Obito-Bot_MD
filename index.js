@@ -41,15 +41,15 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //let require = createRequire(megu)
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n⇏𝗦𝗘 𝗘𝗦𝗧𝗔 𝗜𝗡𝗜𝗖𝗜𝗔𝗡𝗗𝗢 𝗠𝗔𝗚𝗜𝗕𝗢𝗧 𝗘𝗦𝗣𝗘𝗥𝗘 ⇍\n`))
+console.log(chalk.bold.redBright(`\n𖤐 Obito iniciando\n`))
 
-say('NAGIBOT', {
+say('obito', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
 })
 
-say(`NagiBotV2 by Brayan330`, {
+say(`Made by Dev-fedexyz`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
