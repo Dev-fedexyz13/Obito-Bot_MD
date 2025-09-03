@@ -68,7 +68,7 @@ let handler = async (m, { conn, text }) => {
     if (!text) return m.reply("Ingresa el título que quieras buscar.\n\n*Ejemplo:* .tiktoksearch Messi | 5");
 
     let [query, cantidad] = text.split("|").map(v => v.trim());
-    cantidad = parseInt(cantidad) || 3;
+    cantidad = parseInt(cantidad) || 10;
 
     let videos = await ttSearch(query, cantidad);
     if (!videos.length) return m.reply("No encontré videos, prueba con otra palabra clave.");
