@@ -43,7 +43,7 @@ let { say } = cfonts
 
 console.log(chalk.bold.redBright(`\n𖤐 Obito iniciando\n`))
 
-say('obito', {
+say('Obito Bot', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
