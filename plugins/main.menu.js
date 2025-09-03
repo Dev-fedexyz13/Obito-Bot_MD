@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, command, usedPrefix}) => {
     const hora = moment().tz('America/Lima').format('HH:mm:ss');
     const saludo = ucapan();
     const taguser = '@' + m.sender.split('@')[0];
-    const video = ['https://files.cloudkuimages.guru/videos/9yNRmc4K.mp4'].getRandom();
+    const video = ['https://files.cloudkuimages.guru/videos/JXFwCBTA.mp4'].getRandom();
     
     const menu = `
 ˚🌑｡ *𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍-𝖬𝖣* te saluda...
