@@ -672,7 +672,7 @@ global.dfail = (type, m, conn) => {
 
   let edadaleatoria = ['10', '28', '20', '40', '18', '21', '15', '11', '9', '17', '25'].getRandom();
   let user2 = m.pushName || 'Anónimo';
-  let verifyaleatorio = ['registrar', 'reg', 'verificar', 'verify', 'register'].getRandom();
+  let verifyaleatorio = ['registrar', 'reg', 'verificar'].getRandom();
 
   const msg = {
   rowner: `*${comando} es una función exclusiva de los propietarios principales. Tu acceso no está autorizado.*`,
