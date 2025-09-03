@@ -60,7 +60,7 @@ global.gt = 'ᶜʳᵉᵃᵗᵉᵈ ᴮʸ ᴮʳᵃʸᵃⁿ³³⁰';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.imagen0 = fs.readFileSync('./Nagiv2-brayans.jpg');
+global.imagen0 = fs.readFileSync('./Obito-Dev-fedexyz.jpg');
 
 // Owner : https://qu.ax/MKyTf.jpg
 
