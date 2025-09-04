@@ -127,8 +127,8 @@ ${taguser}, ${saludo}
     await conn.sendMessage(m.chat, {
   document: Buffer.from(menu),
   mimetype: 'application/pdf',
-  fileName: '˚🌑｡ 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 | 🌑',
-  caption: '🌑 Aquí tienes el menú completo de comandos.',
+  fileName: '「 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 」',
+  caption: '🌑 Aquí tienes el menú completo de comandos en formato PDF.',
   buttons: [
     {
       buttonId: `${usedPrefix}reg SINNOMBRE.17`,
@@ -142,10 +142,10 @@ ${taguser}, ${saludo}
     forwardingScore: 999,
     externalAdReply: {
       title: '˚🌑｡ 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 ˚⚔｡',
-      body: '˚🌑｡ 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 | 𝖣𝖾𝗏-𝖿𝖾𝖽𝖾𝗑𝗒𝗓',
-      thumbnailUrl: 'https://files.cloudkuimages.guru/images/sS8gtI57.jpg',
+      body: '「 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 」',
+      thumbnailUrl: 'https://files.cloudkuimages.guru/images/sS8gtI57.jpg', // miniatura visible
       mediaType: 1,
-      sourceUrl: 'https://whatsapp.com',
+      sourceUrl: 'https://whatsapp.com', // enlace al que redirige si se toca
       renderLargerThumbnail: true
 }
 },
