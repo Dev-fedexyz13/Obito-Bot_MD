@@ -125,8 +125,10 @@ ${taguser}, ${saludo}
 `.trim();
 
     await conn.sendMessage(m.chat, {
-  video: { url: video},
-  caption: menu,
+  document: Buffer.from(menu),
+  mimetype: 'application/pdf',
+  fileName: '˚🌑｡ 𝖮𝖻𝗂𝗍𝗈-𝖡𝗈𝗍_𝖬𝖣 | 🌑',
+  caption: '🌑 Aquí tienes el menú completo de comandos.',
   buttons: [
     {
       buttonId: `${usedPrefix}reg SINNOMBRE.17`,
